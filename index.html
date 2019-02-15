@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Blueprint: Zoom Slider</title>
+	<meta name="description" content="A simple content slider with depth-like zoom functionality" />
+	<meta name="keywords" content="blueprint, template, slider, zoom, javascript, depth, 3d, css" />
+	<meta name="author" content="Codrops" />
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- Feather Icons -->
+	<link rel="stylesheet" type="text/css" href="fonts/feather/style.css">
+	<!-- General demo styles & header -->
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<!-- Component styles -->
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+	<script src="js/modernizr.custom.js"></script>
+</head>
+<body>
+	<!-- Main container -->
+	<div class="container">
+		<!-- Blueprint header -->
+		<header class="bp-header cf">
+			<span>Animaux à <span class=data-content="The Blueprints are a collection of basic and minimal website concepts, components, plugins and layouts with minimal style for easy adaption and usage, or simply for inspiration."></span></span>
+			<h1>Tâches</h1>
+			<nav>
+
+		</header>
+		<!-- Grid -->
+		<section class="slider">
+			<div class="slide slide--current" data-content="content-1">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="images/zebre.jpg" alt="iPhone" />
+						<div class="preview">
+							<div class="zoomer__area zoomer__area--size-2"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span></span>Zèbre</h2>
+			</div>
+			<div class="slide" data-content="content-2">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="images/dalma.jpg" alt="iPad Mini" />
+						<div class="preview">
+							<div class="zoomer__area zoomer__area--size-4"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span></span> Dalmatien</h2>
+			</div>
+			<div class="slide" data-content="content-3">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="images/girafe.jpg" alt="MacBook" />
+						<div class="preview">
+
+							<div class="zoomer__area zoomer__area--size-3"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span></span> Girafe </h2>
+			</div>
+			<div class="slide" data-content="content-4">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="images/vache.jpg" alt="iMac" />
+						<div class="preview">
+							<div class="zoomer__area zoomer__area--size-5"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span></span> Vâche Fribourgeoise</h2>
+			</div>
+			<div class="slide" data-content="content-5">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="images/panda.jpg" alt="Apple Watch" />
+						<div class="preview rounded">
+							<div class="zoomer__area zoomer__area--size-1"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span></span> Panda </h2>
+			</div>
+			<nav class="slider__nav">
+				<button class="button button--nav-prev"><i class="icon icon--arrow-left"></i><span class="text-hidden">Previous product</span></button>
+				<button class="button button--zoom"><i class="icon icon--zoom"></i><span class="text-hidden">View details</span></button>
+				<button class="button button--nav-next"><i class="icon icon--arrow-right"></i><span class="text-hidden">Next product</span></button>
+			</nav>
+		</section>
+		<!-- /slider-->
+		<section class="content">
+			<div class="content__item" id="content-1">
+				<img class="content__item-img rounded-right" src="images/zebre.jpg" alt="Apple Watch Content" />
+				<div class="content__item-inner">
+					<h2>Zèbre</h2>
+					<h3>Animal à rayures</h3>
+					<p>Zèbre est un nom vernaculaire, ambigu en français, pouvant désigner plusieurs espèces différentes d'herbivores de la famille des équidés, et du genre Equus, vivant en Afrique.</p>
+					<p><a href="https://fr.wikipedia.org/wiki/Z%C3%A8bre">Learn more about this technology &xrarr;</a></p>
+				</div>
+			</div>
+			<div class="content__item" id="content-2">
+				<img class="content__item-img rounded-right" src="images/dalma.jpg" alt="iPad Mini Content" />
+				<div class="content__item-inner">
+					<h2>Dalmatien</h2>
+					<h3>Animal à poids</h3>
+					<p>Le dalmatien est une race de chiens originaire de la Dalmatie (région de la Croatie). Race apparentée au chien courant, le dalmatien est de taille moyenne, musclé, actif, harmonieux dans ses lignes doté d'un trot remarquable. Il est selon la FCI d'un caractère calme, assez têtu mais très intelligent et câlin. Sa robe a pour couleur de base le blanc pur et comporte des taches rondes et bien dessinées, pouvant être soit noires, soit foie. Le dalmatien est un chien sportif et gai qui a besoin de se dépenser. C'est une race qui s'illustre par la pratique de sports comme l'agility, le cani-cross ainsi que l'obé rythmée.
+
+L'image du dalmatien est souvent associée à celle du cheval puisqu'il s'agit d'un « chien de coche ».</p>
+					<p><a href="https://fr.wikipedia.org/wiki/Dalmatien">Learn more about Performance &xrarr;</a></p>
+				</div>
+			</div>
+			<div class="content__item" id="content-3">
+				<img class="content__item-img rounded-right" src="images/girafe.jpg" alt="MacBook Content" />
+				<div class="content__item-inner">
+					<h2>Girafe</h2>
+					<h3>Animal à tâches</h3>
+					<p>La Girafe (Giraffa camelopardalis) est une espèce de mammifères ongulés artiodactyles, du groupe des ruminants, vivant dans les savanes africaines et répandue du Tchad jusqu'en Afrique du Sud. Son nom commun vient de l'arabe زرافة, zarāfah, mais l'animal fut anciennement appelé camélopard, du latin camelopardus1, contraction de camelus (chameau) en raison du long cou et de pardus (léopard) en raison des taches recouvrant son corps. Après des millions d'années d'évolution, la girafe a acquis une anatomie unique avec un cou particulièrement allongé qui lui permet notamment de brouter la cime des arbres.</p>
+					<p><a href="https://fr.wikipedia.org/wiki/Girafe">Learn more about the design &xrarr;</a></p>
+				</div>
+			</div>
+			<div class="content__item" id="content-4">
+				<img class="content__item-img rounded-right" src="images/vache.jpg" alt="iMac Content" />
+				<div class="content__item-inner">
+					<h2>Vâche Fribourgeoise</h2>
+					<h3>La vraie vâche suisse</h3>
+					<p>La fribourgeoise est une ancienne race bovine suisse, tachetée noire et blanche, originaire du canton de Fribourg, en Suisse. Race aujourd’hui disparue, elle a été supplantée dans les années 1970 par la holstein, de même couleur.</p>
+					<p><a href="https://fr.wikipedia.org/wiki/Fribourgeoise">Learn more about the iMac's features &xrarr;</a></p>
+				</div>
+			</div>
+			<div class="content__item" id="content-5">
+				<img class="content__item-img rounded-right" src="images/panda.jpg" alt="Apple Watch Content" />
+				<div class="content__item-inner">
+					<h2>Panda</h2>
+					<h3>Panda géant</h3>
+					<p>le panda géant (Ailuropoda melanoleuca), une espèce d'ours herbivore, ou les autres espèces fossiles du genre Ailuropoda. </p>
+					<p><a href="https://fr.wikipedia.org/wiki/Panda">Learn more about new ways to connect &xrarr;</a></p>
+				</div>
+			</div>
+			<button class="button button--close"><i class="icon icon--circle-cross"></i><span class="text-hidden">Close content</span></button>
+		</section>
+	</div>
+	<script src="js/classie.js"></script>
+	<script src="js/dynamics.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
